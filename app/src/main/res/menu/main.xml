@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_notifications"
+        android:title="@string/action_noification"
+        app:actionLayout="@layout/view_alertsbadge"
+        android:orderInCategory="100"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_new_account"
+        android:title="@string/action_add_account"
+        app:actionLayout="@layout/view_profilebadge"
+        android:orderInCategory="200"
+        app:showAsAction="always" />
+
+
+
+
+</menu>

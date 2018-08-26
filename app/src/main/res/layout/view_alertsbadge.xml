@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:id="@+id/frameLay"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="32dp"
+    android:layout_height="32dp"
+    android:layout_gravity="center"
+
+>
+
+    <ImageView
+        android:id="@+id/image2"
+        android:layout_width="@dimen/menu_item_icon_size"
+        android:layout_height="@dimen/menu_item_icon_size"
+        android:layout_gravity="center"
+        android:onClick="ClickNav"
+        android:src="@drawable/ic_bell"/>
+
+    <FrameLayout
+        android:id="@+id/view_alert_red_key"
+        android:layout_width="14dp"
+        android:layout_height="14dp"
+        android:layout_gravity="top|end"
+        android:background="@drawable/bell_noification"
+        >
+
+        <TextView
+            android:id="@+id/view_alert_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="#64192F"
+            android:textSize="10sp"
+            android:text="1"/>
+
+    </FrameLayout>
+
+</FrameLayout>
